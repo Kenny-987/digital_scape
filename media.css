@@ -1,0 +1,282 @@
+@media (min-width: 700px) and (max-width: 980px) {
+  .links li {
+    margin-left: 20px;
+    padding: 10px 14px;
+  }
+
+  .light-dark {
+    margin-left: 20px;
+  }
+  .pt1 {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .text {
+    width: 50%;
+    font-size: 20px;
+  }
+  .text h1 {
+    font-size: 30px;
+  }
+  .pic1 {
+    height: 300px;
+  }
+
+  .pic1 img {
+    height: 100%;
+  }
+  .pt2 {
+    padding: 10px;
+    flex-direction: row-reverse;
+  }
+
+  .pic2 {
+    height: 300px;
+  }
+
+  .pic2 {
+    width: 60%;
+  }
+  .pt2 p {
+    font-size: 20px;
+    width: 40%;
+  }
+  .more button {
+    color: #ffffff;
+    background-color: #000000;
+  }
+
+  .more button:hover {
+    background-color: rgba(0, 0, 0, 0.548);
+  }
+  /* About Section CSS */
+  .about {
+    margin-top: 30px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    /* border: 2px solid red; */
+  }
+  .box-visible {
+    opacity: 1;
+  }
+  .about-header h1 {
+    text-align: center;
+  }
+  .det {
+    display: flex;
+    margin-top: 20px;
+    width: 96%;
+    /* border: 2px solid red; */
+  }
+  .para {
+    width: 60%;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .about-pic {
+    width: 40%;
+    height: 220px;
+  }
+  /* services */
+  .services {
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    caret-color: transparent;
+  }
+
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+  }
+  .item {
+    width: 48%;
+  }
+
+  .item:hover {
+    /* border: 1px solid rgb(0, 0, 0); */
+    box-shadow: 0px 0px 6px 1px rgb(0, 60, 255);
+  }
+}
+@media (min-width: 980px) {
+  .intro {
+    padding: 0px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.589);
+    height: 80vh;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 70px;
+  }
+
+  .pt1 {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    width: 100%;
+    box-shadow: none;
+    margin: auto;
+    border: none;
+  }
+  .pic1 {
+    margin-top: 20px;
+    width: 40%;
+  }
+  .text {
+    width: 50%;
+    font-size: 20px;
+  }
+  .text h1 {
+    font-size: 30px;
+  }
+  .pt2 {
+    border: none;
+    box-shadow: none;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+    gap: 0px;
+    width: 100%;
+    margin: auto;
+  }
+  .pic2 {
+    width: 40%;
+    height: 220px;
+  }
+  .pic2 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .pt2 p {
+    width: 50%;
+    padding: 0px;
+  }
+
+  .more {
+    text-align: center;
+    margin: auto;
+    margin-top: -5px;
+    width: fit-content;
+  }
+  .more button {
+    color: #ffffff;
+    background-color: #000000;
+  }
+
+  .more button:hover {
+    color: grey;
+    background-color: rgb(0, 0, 0);
+  }
+  /* About Section CSS */
+  .about {
+    margin-top: 50px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    /* border: 2px solid red; */
+  }
+  .box-visible {
+    opacity: 1;
+  }
+  .about-header h1 {
+    text-align: center;
+  }
+  .det {
+    display: flex;
+    margin-top: 20px;
+    width: 80%;
+    border: 1px solid rgba(0, 0, 0, 0.589);
+  }
+  .para {
+    width: 50%;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .about-pic {
+    /* border: 2px solid green; */
+    width: 50%;
+    height: 300px;
+  }
+  .services {
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    caret-color: transparent;
+  }
+
+  .items {
+    /* border: 2px solid blue; */
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+  }
+  .item {
+    width: 48%;
+  }
+
+  .item:hover {
+    /* border: 1px solid rgb(0, 0, 0); */
+    box-shadow: 0px 0px 6px 1px rgb(0, 60, 255);
+  }
+  .contact {
+    margin-top: 30px;
+    /* border: 2px solid red; */
+    padding: 10px;
+  }
+  .contact h1 {
+    text-align: center;
+  }
+  .contact-pic {
+    height: 200px;
+  }
+  .contact-pic img {
+    width: 100%;
+    height: 100%;
+  }
+  .info {
+    border-top: 1px solid #202020;
+    margin-top: 10px;
+  }
+  .in {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 701px) {
+  .slider-thumb::before {
+    left: 30%;
+    top: 55%;
+    width: 350px;
+    height: 250px;
+  }
+  .slider-thumb2::before {
+    left: 75%;
+    top: 20%;
+    width: 200px;
+    height: 250px;
+    background: #29f500;
+  }
+  .slider-thumb3::before {
+    left: 10%;
+    top: 10%;
+    width: 100px;
+    height: 150px;
+    background: #04c033;
+  }
+}

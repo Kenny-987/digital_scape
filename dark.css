@@ -1,0 +1,16 @@
+.back-dark {
+  /* border: 2px solid red; */
+  background: #1a1a1a;
+  /* z-index: -1; */
+}
+.intro-dark {
+  color: #ffffff;
+}
+.container-dark {
+  background: #252525;
+  color: #f0f8fe;
+}
+
+.parts-dark {
+  background-color: #111111d7;
+}
