@@ -20,6 +20,7 @@ window.addEventListener("scroll", () => {
 });
 
 // code for animating services
+const items = document.querySelectorAll(".item");
 const isInView = (element) => {
   const rect = element.getBoundingClientRect();
   return (
@@ -32,7 +33,6 @@ const isInView = (element) => {
 };
 
 const animate = () => {
-  const items = document.querySelectorAll(".item");
   items.forEach((item) => {
     if (isInView(item)) {
       item.classList.add("animate");
@@ -44,13 +44,16 @@ window.addEventListener("scroll", animate);
 const switchBtn = document.querySelector(".slider");
 const mainBg = document.querySelector(".back");
 const container = document.querySelector(".container");
-const introParts = document.querySelectorAll(".parts");
+const introParts = document.querySelector(".intro");
 switchBtn.addEventListener("click", () => {
   mainBg.classList.toggle("back-dark");
   container.classList.toggle("container-dark");
   console.log("mmh");
 
-  introParts.forEach((part) => {
-    part.classList.toggle("parts-dark");
-  });
+  introParts.classList.toggle("parts-dark");
+});
+
+//code to show more info modal
+items.forEach((item) => {
+  console.log(item);
 });
