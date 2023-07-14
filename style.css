@@ -45,7 +45,7 @@ html {
 .intro {
   width: 98%;
   margin: auto;
-  margin-top: 80px;
+  margin-top: 60px;
   padding: 20px;
   text-align: center;
   /* border: 1px solid rgba(0, 0, 0, 0.589); */
@@ -350,6 +350,8 @@ input:checked + .slider:before {
 .p {
   width: 90%;
   text-align: center;
+  margin:auto;
+  margin-top:10px;
 }
 
 .items {
